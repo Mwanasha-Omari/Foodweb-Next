@@ -8,7 +8,6 @@ import { FaLinkedinIn } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div>
-      {/* Newsletter Section */}
       <div className=" py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
@@ -31,18 +30,15 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Main Footer */}
       <footer className="bg-black text-white py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-            {/* Brand Section */}
             <div>
               <h3 className="text-2xl font-bold mb-6">FoodHouse.</h3>
               <p className="text-gray-400 mb-6">
                 Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes.
               </p>
               <div className="flex gap-4">
-                {/* Social Media Icons - Leave space for actual icons */}
                 <div className="w-10 h-10 text-yellow bg-white rounded-lg flex items-center justify-center">
                 <FaFacebookF />
                 </div>
@@ -55,8 +51,6 @@ const Footer = () => {
                </div>
               </div>
             </div>
-
-            {/* Company Links */}
             <div>
               <h4 className="text-xl mb-6">Company</h4>
               <ul className="space-y-4 text-gray-400">
@@ -67,8 +61,6 @@ const Footer = () => {
                 <li><a href="#" className="hover:text-white transition-colors">Features</a></li>
               </ul>
             </div>
-
-            {/* Fudo Links */}
             <div>
               <h4 className="text-xl mb-6">Fudo</h4>
               <ul className="space-y-4 text-gray-400">
@@ -79,8 +71,6 @@ const Footer = () => {
                 <li><a href="#" className="hover:text-white transition-colors">Gallery</a></li>
               </ul>
             </div>
-
-            {/* Menu Links */}
             <div>
               <h4 className="text-xl mb-6">Menu</h4>
               <ul className="space-y-4 text-gray-400">
@@ -94,8 +84,6 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-
-      {/* Copyright Bar */}
       <div className="bg-yellow text-white py-4">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">

@@ -24,8 +24,7 @@ const DownloadSection = () => {
               <input
                 type="text"
                 placeholder="Search"
-                className="w-full bg-pink-50 rounded-full py-3 px-12 text-gray-600"
-              />
+                className="w-full bg-pink-50 rounded-full py-3 px-12 text-gray-600"/>
               <FaSearch className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
             </div>
             <div className="flex gap-4 mb-6 text-sm">

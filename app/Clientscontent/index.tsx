@@ -7,23 +7,20 @@ import { FaChevronLeft } from "react-icons/fa";
 const testimonials = [
   {
     id: 1,
-    name: "Mitchell Marsh",
-    role: "CEO, Bexon Agency",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+    name: "Kyler Peris",
+    content: "The meals were delicious and freshly prepared!",
     image: "/images/mercy.webp"  
   },
   {
     id: 2,
-    name: "Mark Taylor",
-    role: "Founder, Taylor Tech",
-    content: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+    name: "Mark Namaswa",
+    content: "The staff was friendly and attentive.",
     image: "/images/mark.webp"   
   },
   {
     id: 3,
-    name: "Jane Doe",
-    role: "Marketing Manager, BrandX",
-    content: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.",
+    name: "Jane Kibara",
+    content: "The atmosphere was cozy and inviting.",
     image: "/images/jane.webp" 
   },
 ];
